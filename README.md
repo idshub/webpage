@@ -2,8 +2,7 @@
 
 Sample HTML/CSS web app that you can deploy to any Cloud provider. 
 
-#yum install httpd  -y 
-#yum install git  -y 
+#yum install httpd git  -y 
 #git clone 
 #mv webpage/* /var/wwww/html
 #create configuration file
