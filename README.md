@@ -4,9 +4,9 @@ Sample HTML/CSS web app that you can deploy to any Cloud provider.
 
 yum install httpd git  -y 
 
-git clone 
+git clone https://github.com/sonulodha/webpage.git
 
-mv webpage/* /var/wwww/html
+mv webpage/* /var/wwww/html/
 
 create configuration file
 
