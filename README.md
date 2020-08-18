@@ -17,7 +17,6 @@ Sample HTML/CSS web app that you can deploy to any Cloud provider.
 
 #systemctl enable httpd
 #systemctl start httpd
-
 #firefox localhost
 
 
