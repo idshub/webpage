@@ -17,11 +17,23 @@ create configuration file
        DocumentRoot /var/www/html/
        </VirtualHost>
 
+apachectl configtest
+
+
 systemctl enable httpd
 
 systemctl start httpd
 
-firefox localhost
+getenforce
+
+restorecon -vRF /var/www/html
+
+
+# AWS _ security grop : Inbound rule - allow http 
+
+
+
+firefox your_pub_ip
 
 
 
